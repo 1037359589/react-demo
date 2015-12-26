@@ -57,7 +57,7 @@ var Form=React.createClass({
 					
 					<div>
 						<label for="textarea">Textarea:</label>
-						<textarea cols="40" rows="8" name="textarea" id="textarea" defaultValue={this.state.selectValue}></textarea>
+						<textarea cols="40" rows="8" name="textarea" id="textarea" value={this.state.inputValue} onChange={this.handleValue}></textarea>
 					</div>
 					
 					<div>

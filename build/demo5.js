@@ -101,7 +101,7 @@ var Form = React.createClass({
 					{ "for": "textarea" },
 					"Textarea:"
 				),
-				React.createElement("textarea", { cols: "40", rows: "8", name: "textarea", id: "textarea", defaultValue: this.state.selectValue })
+				React.createElement("textarea", { cols: "40", rows: "8", name: "textarea", id: "textarea", value: this.state.inputValue, onChange: this.handleValue })
 			),
 			React.createElement(
 				"div",
