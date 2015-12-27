@@ -35,11 +35,8 @@ var Children=React.createClass({
 				)
 		});
 		return (
-			<div>
-			{msg}
-			</div>
+			<div>{msg}</div>
 			)
-		
 	}
 });
 var parentMsg="我才是真胖子！"

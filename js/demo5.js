@@ -62,14 +62,14 @@ var Form=React.createClass({
 					
 					<div>
 						<label for="checkbox">Checkbox:</label>
-						<input type="checkbox" name="checkbox" id="checkbox" defaultChecked/>
 						<input type="checkbox" name="checkbox" id="checkbox" />
+						<input type="checkbox" name="checkbox" id="checkbox" defaultChecked/>
 						<input type="checkbox" name="checkbox" id="checkbox" />
 						<input type="checkbox" name="checkbox" id="checkbox" />
 					</div>
 				
 					<div>
-						<input type="submit" value="Submit" />
+						<input type="submit" value="Submit"/>
 					</div>
 				</form>	
 		)
